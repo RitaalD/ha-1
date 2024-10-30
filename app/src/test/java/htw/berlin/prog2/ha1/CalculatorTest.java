@@ -93,7 +93,7 @@ class CalculatorTest {
     //TODO hier weitere Tests erstellen
     @Test
     @DisplayName("should display result after subtract two positive multi-digit numbers")
-    void testsubtraction() {
+    void testtsubtraction() {
         Calculator calc = new Calculator();
         calc.pressDigitKey(3);
         calc.pressDigitKey(0);
